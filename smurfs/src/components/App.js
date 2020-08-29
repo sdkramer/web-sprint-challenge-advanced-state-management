@@ -1,5 +1,9 @@
 import React, { Component } from "react";
+import SmurfList from './SmurfList';
+import InputForm from './InputForm';
 import "./App.css";
+
+
 class App extends Component {
   render() {
     return (
@@ -8,6 +12,8 @@ class App extends Component {
   <i className="map signs icon" style={{color: 'light purple'}}></i>
  Smurf Village
 </h1>
+<SmurfList />
+<InputForm />
       </div>
     );
   }
